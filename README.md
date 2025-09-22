@@ -1,5 +1,7 @@
 # Gerzhan | Demo TaigaUi
 
+[github.com/gerzhan/gerzhan-demo-taiga-ui](https://github.com/gerzhan/gerzhan-demo-taiga-ui.git)
+
 ## Agenda
 
 Демо приложение применения стэка технологий
