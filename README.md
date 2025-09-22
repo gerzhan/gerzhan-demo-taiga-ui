@@ -1,27 +1,36 @@
-# GerzhanDemoTaigaUi
+# Gerzhan | Demo TaigaUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.
+## Agenda
 
-## Development server
+Демо приложение применения стэка технологий
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular (v12)
+- Taiga-UI (v3.117.0)
 
-## Code scaffolding
+```bash
+# Инициализация проекта
+$ng new gerzhan-demo-taiga-ui --version=12
+# Установка зависимостей Taiga-UI согласно документации https://taiga-ui.dev/v3/getting-started
+$npm i @taiga-ui/cdk@v3.117.0
+$npm i @taiga-ui/core@v3.117.0
+$npm i @taiga-ui/kit@v3.117.0
+$npm i @taiga-ui/icons@v3.117.0
+$npm install @taiga-ui/addon-doc // Taiga UI based library for developing documentation portals for Angular libraries
+# TODO:
+$npm i @taiga-ui/addon-charts    // Components for various charts, graphs and visualizations
+$npm i @taiga-ui/addon-commerce  // Money-related extension with currencies, credit card inputs and validators
+$npm i @taiga-ui/addon-mobile    // Components and tools specific to mobile version of the app
+$npm i @taiga-ui/addon-table     // Interactive table component and related utilities
+$npm i @taiga-ui/layout          // Layout components
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Local Development
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# запуск в режиме разработки
+$ng dev
+# генерация кода с cli (code scaffolding)
+$ng generate directive|pipe|service|class|guard|interface|enum|module
+# сборка приложения в директории `dist/`
+$ng build
+```
