@@ -6,26 +6,26 @@
 
 Демо приложение применения стэка технологий
 
-- Angular (v12)
-- Taiga-UI (v3.117.0)
-- [angular-auth-oidc-client (v13)](https://github.com/damienbod/angular-auth-oidc-client/tree/version-13)
+- Angular (v20.3.1)
+- Taiga-UI (v4.55.0)
+- [angular-auth-oidc-client (v20)](https://github.com/damienbod/angular-auth-oidc-client/tree/version-13)
 
 ```bash
 # Инициализация проекта
-$ng new gerzhan-demo-taiga-ui --version=12
+$ng new gerzhan-demo-taiga-ui --version=20
 # Установка зависимостей Taiga-UI согласно документации https://taiga-ui.dev/v3/getting-started
-$npm i @taiga-ui/cdk@v3.117.0
-$npm i @taiga-ui/core@v3.117.0
-$npm i @taiga-ui/kit@v3.117.0
-$npm i @taiga-ui/icons@v3.117.0
-$npm i @taiga-ui/experimental@v3.117.0
+$npm i @taiga-ui/cdk
+$npm i @taiga-ui/core
+$npm i @taiga-ui/kit
+$npm i @taiga-ui/icons
+$npm i @taiga-ui/experimental
 $npm install @taiga-ui/addon-doc // Taiga UI based library for developing documentation portals for Angular libraries
 # TODO:
-$npm i @taiga-ui/addon-charts@v3.117.0    // Components for various charts, graphs and visualizations
-$npm i @taiga-ui/addon-commerce@v3.117.0  // Money-related extension with currencies, credit card inputs and validators
-# TODO: $npm i @taiga-ui/addon-mobile@v3.117.0    // Components and tools specific to mobile version of the app
-$npm i @taiga-ui/addon-table@v3.117.0     // Interactive table component and related utilities
-$npm i @taiga-ui/layout@v3.117.0          // Layout components
+$npm i @taiga-ui/addon-charts    // Components for various charts, graphs and visualizations
+$npm i @taiga-ui/addon-commerce  // Money-related extension with currencies, credit card inputs and validators
+# TODO: $npm i @taiga-ui/addon-mobile    // Components and tools specific to mobile version of the app
+$npm i @taiga-ui/addon-table     // Interactive table component and related utilities
+$npm i @taiga-ui/layout          // Layout components
 ```
 
 ## Local Development
