@@ -79,10 +79,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gerzhan-demo-taiga-ui:build:production"
+              "buildTarget": "gerzhan-demo-taiga-ui:build:production"
             },
             "development": {
-              "browserTarget": "gerzhan-demo-taiga-ui:build:development"
+              "buildTarget": "gerzhan-demo-taiga-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gerzhan-demo-taiga-ui:build"
+            "buildTarget": "gerzhan-demo-taiga-ui:build"
           }
         },
         "test": {
