@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthEngineService } from '../auth/auth-engine.service';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.less'],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  constructor(private authService: AuthEngineService) {}
 
   ngOnInit(): void {}
+
+  login() {
+    this.authService.login();
+  }
 }
